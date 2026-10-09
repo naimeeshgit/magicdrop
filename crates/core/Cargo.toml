@@ -1,0 +1,33 @@
+[package]
+name = "magicdrop-core"
+description = "Core engine for MagicDrop: LAN discovery and peer-to-peer file transfer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+axum.workspace = true
+bytes.workspace = true
+dirs.workspace = true
+futures-util.workspace = true
+hex.workspace = true
+hostname.workspace = true
+if-addrs.workspace = true
+mdns-sd.workspace = true
+rand.workspace = true
+rcgen.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+socket2.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tracing.workspace = true
+walkdir.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

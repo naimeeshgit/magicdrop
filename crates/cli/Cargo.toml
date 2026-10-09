@@ -1,0 +1,22 @@
+[package]
+name = "magicdrop"
+description = "MagicDrop command-line client: send files to nearby devices on your network"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "magicdrop"
+path = "src/main.rs"
+
+[dependencies]
+magicdrop-core = { path = "../core" }
+anyhow.workspace = true
+clap.workspace = true
+dialoguer.workspace = true
+indicatif.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
